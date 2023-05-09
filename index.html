@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- for handling keyboard inputs -->
+    <input id="key-press" style="display: none;">
+
+    <div id="heading">
+        <h1>Our Gallery</h1>
+    </div>
+    <img src="./sebastian-svenson-d2w-_1LJioQ-unsplash.jpg" alt="" id="bg">
+    <div id="container">
+        <div id="gallery-display-container">
+            <div class="grid-item"><img src="./sample/0dcf0fc799d664db56c34d14a278d25631ebfa42765d5b190845232bd82182c3.jpg" alt=""></div>
+            <div class="grid-item"><img src="./sample/14fcad17616261eece4ffe4492433af8c27a4334d05590d246db840f74ce3cc9.jpg" alt=""></div>
+            <div class="grid-item"><img src="./sample/168ca10acdd24f14dbd9bf2f89996155bbba3e4b859070c7551675f718a174d4.jpg" alt=""></div>
+            <div class="grid-item"><img src="./sample/22c6f9bace90274ccf4a7ce31bdde633f9f8e0b38d6bd8b4dcb16e41d16626c7.jpg" alt=""></div>
+            <div class="grid-item"><img src="./sample/27c1e3655d1c4c158e6bf14676497d8254d8672888ef2247612c8656f6735f0a.jpg" alt=""></div>    
+            <div class="grid-item"><img src="./sample/3aae6c26dc27353bcdb9ad54214b3a57ecdd74a0d875273a24469ff489c3dad8.jpg" alt=""></div>
+            <div class="grid-item"><img src="./sample/48fae02927ee85734430460e7c85a53825ee7d122802d0a6c9bb54f03db2543b.jpg" alt=""></div>
+            <div class="grid-item"><img src="./sample/4c0668aa37882264af0da5d74d9b6ce4e5fe7f5f6a489dc67117d8f14259694a.jpg" alt=""></div>
+            <div class="grid-item"><img src="./sample/4c6cb397768c6eb76f94e58dcbf316a90326d3496e8626036075e70493eb2f60.jpg" alt=""></div>
+            <div class="grid-item"><img src="./sample/5fc0d9c41acd8b3e118b40a1367c12f64a121ed01583ddf05f44950175e2b4c8.jpg" alt=""></div>
+            <div class="grid-item"><img src="./sample/62daabed6b7e67280491e455f54a929069adcc8ba241dc26139c116ed06b572b.jpg" alt=""></div>
+            <div class="grid-item"><img src="./sample/6da3b89ed2d1aacbc03bc537b79a7ebe40e30781f563ef3d16bc0f25f5c51c82.jpg" alt=""></div>
+            <div class="grid-item"><img src="./sample/0f74186b15b521f6ba72ad3b6e715d2e7694592352784f7b9a6f2bf606f8cb5b.jpg" alt=""></div>
+            <div class="grid-item"><img src="./sample/7cb0d1143787c729b616d3b6957981602e607b55a272179e91b83f6855268d08.jpg" alt=""></div>
+            <div class="grid-item"><img src="./sample/7cdf14db294b9fa38dc5eb568f003472b0c6602b027faec2b329289d81ced96d.jpg" alt=""></div>
+            <div class="grid-item"><img src="./sample/7f2275b987e7377465f1d6014d1fb2011e98ff86185864799a20007900f92a26.jpg" alt=""></div>
+            <div class="grid-item"><img src="./sample/9fcc5530eb872be208505ed08a9c9e8607fc443669207d220285a073e4d31dd1.jpg" alt=""></div>
+        </div>
+        <div id="img-display-container" class="none">
+            <div style="float: right;height: fit-content;">
+                <button id="download"><ion-icon name="cloud-download-outline"></ion-icon></button>
+                <button id="close"><ion-icon name="close-outline"></ion-icon></button>
+            </div>
+            <div id="img-display">
+                <button id="left"><ion-icon name="chevron-back-outline"></ion-icon></button>
+                <div id="img-div"><img id="img" src="" alt=""></div>
+                <button id="right"><ion-icon name="chevron-forward-outline"></ion-icon></button>
+            </div>
+        </div>
+    </div>
+    <div class="footer" style="bottom: 0;background-color: #1A1919;padding: 3px;"><p style="text-align: center; font-size: small;">This is a gallery template. All images are from windows spotlight</p></div>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
