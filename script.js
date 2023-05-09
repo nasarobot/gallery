@@ -1,5 +1,3 @@
-const keyUp = document.getElementById('key-press');
-
 const galleryDisplayContainer = document.getElementById('gallery-display-container');
 const gridItems = document.querySelectorAll('.grid-item');
 
@@ -21,11 +19,9 @@ gridItems.forEach(item => {
         for(let i=0;i<gridItems.length;i++){
             if(gridItems[i] == this){
                 index = i;
-                console.log(index);
                 break;
             }
         }
-        console.log(this);
         toggleShowHide();
     })
 });
@@ -54,23 +50,27 @@ close.addEventListener('click', () => {
     toggleShowHide();
 });
 
-left.addEventListener('click',function Leftimg() {
+function Leftimg() {
     index--; index = (index + n) % n;
-    console.log(index);
     displayimg.src = gridItems[index].firstChild.src;
-});
-right.addEventListener('click',function Rightimg () {
+}
+function Rightimg() {
     index++; index = index % n;
-    console.log(index);
     displayimg.src = gridItems[index].firstChild.src;
-});
+}
+left.addEventListener('click', () => Leftimg());
+right.addEventListener('click', () => Rightimg());
 
-keyUp.addEventListener('keyup', (e) => {
-    if (!imgDisplayContainer.classList.contains('none')){
-        switch(e.key) {
-            case "Left" : case "ArrowLeft" : Leftimg();break;
-            case "Right" : case "ArrowRight" : Rightimg();break;
-            case "Escape" : toggleShowHide();break;
+document.addEventListener('keyup', function (e) {
+    if (!imgDisplayContainer.classList.contains('none')) {
+        if (e.key === "Left" || e.key === "ArrowLeft") {
+            Leftimg();
+        }
+        else if (e.key === "Right" || e.key === "ArrowRight") {
+            Rightimg();
+        }
+        else if (e.key === "Escape") {
+            toggleShowHide();
         }
     }
 });
