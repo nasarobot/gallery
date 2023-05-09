@@ -86,13 +86,13 @@ h1 {
     box-shadow: 0 0 10px rgba(10, 10, 10, 0.7);
 }
 #gallery-display-container img{
-    filter: brightness(0.7);
+    filter: brightness(0.9);
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
 }
 #gallery-display-container img:hover{
-    filter: brightness(1.1);
+    filter: brightness(1.2);
     scale: 1.03;
     transition: 0.2s;
 }
