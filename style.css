@@ -32,6 +32,7 @@ button {
     border: none;
     cursor: pointer;
 }
+
 .none{
     display: none !important;
 }
@@ -63,24 +64,20 @@ h1 {
     align-items: center;
     justify-content: center;
     z-index: 1;
-    /* display: none; */
 }
 
 
 #gallery-display-container{
-    /* background-color: #1a1919; */
     padding: 1rem;
     margin: 5rem;
     display: grid;
     gap: 0.5rem;
     grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
 }
-
 #gallery-display-container div{
     width: 100%;
     display: flex;
     object-fit: cover;
-    /* overflow: hidden; */
     align-items: center;
     justify-content: center;
     box-shadow: 0 0 10px rgba(10, 10, 10, 0.7);
@@ -107,7 +104,6 @@ h1 {
     border-radius: 5px;
     box-shadow: 2px 2px 100px rgba(10, 10, 10, 0.7);
     overflow: hidden;
-    /* display: none; */
 }
 #img-display{
     display: flex;
@@ -133,7 +129,7 @@ h1 {
     min-width: 20rem;
     height: 100%;
 }
-#img-div  img{
+#img-div img{
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
