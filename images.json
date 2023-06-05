@@ -1,0 +1,70 @@
+[
+    {
+        "index": 0,
+        "source": "./sample/img1.jpg"
+    },
+    {
+        "index": 1,
+        "source": "./sample/img2.jpg"
+    },
+    {
+        "index": 2,
+        "source": "./sample/img3.jpg"
+    },
+    {
+        "index": 3,
+        "source": "./sample/img4.jpg"
+    },
+    {
+        "index": 4,
+        "source": "./sample/img5.jpg"
+    },
+    {
+        "index": 5,
+        "source": "./sample/img6.jpg"
+    },
+    {
+        "index": 6,
+        "source": "./sample/img7.jpg"
+    },
+    {
+        "index": 7,
+        "source": "./sample/img8.jpg"
+    },
+    {
+        "index": 8,
+        "source": "./sample/img9.jpg"
+    },
+    {
+        "index": 9,
+        "source": "./sample/img10.jpg"
+    },
+    {
+        "index": 10,
+        "source": "./sample/img11.jpg"
+    },
+    {
+        "index": 11,
+        "source": "./sample/img12.jpg"
+    },
+    {
+        "index": 12,
+        "source": "./sample/img13.jpg"
+    },
+    {
+        "index": 13,
+        "source": "./sample/img14.jpg"
+    },
+    {
+        "index": 14,
+        "source": "./sample/img15.jpg"
+    },
+    {
+        "index": 15,
+        "source": "./sample/img16.jpg"
+    },
+    {
+        "index": 16,
+        "source": "./sample/img17.jpg"
+    }
+]
